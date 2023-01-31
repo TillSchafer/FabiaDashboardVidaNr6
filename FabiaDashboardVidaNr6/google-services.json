@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "246629841459",
+    "project_id": "vidadashboardnotificatio-80d5b",
+    "storage_bucket": "vidadashboardnotificatio-80d5b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246629841459:android:2a93c3cfdff0a0471a4146",
+        "android_client_info": {
+          "package_name": "com.companyname.testdashboard2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnXeBnE9gWRpDFWwM45XaaxLHPD7gxxwk"
+        },
+        {
+          "current_key": "AIzaSyDKpLErbDZ9ZKgePEnlY-ldBOahjf6-iP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246629841459:android:68542c916c001d471a4146",
+        "android_client_info": {
+          "package_name": "com.rumpelstiltskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnXeBnE9gWRpDFWwM45XaaxLHPD7gxxwk"
+        },
+        {
+          "current_key": "AIzaSyDKpLErbDZ9ZKgePEnlY-ldBOahjf6-iP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246629841459:android:f96a1dec58e3e1ce1a4146",
+        "android_client_info": {
+          "package_name": "tutorials.tutoria1.xamarinfcmapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnXeBnE9gWRpDFWwM45XaaxLHPD7gxxwk"
+        },
+        {
+          "current_key": "AIzaSyDKpLErbDZ9ZKgePEnlY-ldBOahjf6-iP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246629841459-v5gosh4grgs1net85dd7ia28annl43kb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
