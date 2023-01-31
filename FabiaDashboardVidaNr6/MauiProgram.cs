@@ -8,33 +8,38 @@ namespace FabiaDashboardVidaNr6;
 
 public static class MauiProgram
 {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-			.UseMauiApp<App>()
+    public static MauiApp CreateMauiApp()
+    {
+        var builder = MauiApp.CreateBuilder();
+        builder
+            .UseMauiApp<App>()
             .RegisterFirebaseServices()
-            .ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-			});
+            .ConfigureFonts(fonts => { fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular"); });
 
-		builder.Services.AddMauiBlazorWebView();
-		#if DEBUG
-		builder.Services.AddBlazorWebViewDeveloperTools();
+        builder.Services.AddMauiBlazorWebView();
+#if DEBUG
+        builder.Services.AddBlazorWebViewDeveloperTools();
 #endif
-		
-		builder.Services.AddSingleton<WeatherForecastService>();
+
+        builder.Services.AddSingleton<WeatherForecastService>();
 
 
-		return builder.Build();
-	}
+        return builder.Build();
+    }
+
     private static MauiAppBuilder RegisterFirebaseServices(this MauiAppBuilder builder)
     {
         builder.ConfigureLifecycleEvents(events =>
         {
             events.AddAndroid(android => android.OnCreate((activity, state) =>
-                CrossFirebase.Initialize(activity, state, CreateCrossFirebaseSettings())));
+            {
+                if (state == null)
+                {
+                    return;
+                }
+
+                CrossFirebase.Initialize(activity, state, CreateCrossFirebaseSettings());
+            }));
         });
 
         builder.Services.AddSingleton(_ => CrossFirebaseAuth.Current);
